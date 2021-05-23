@@ -28,12 +28,8 @@ class CreateEmpresaTable extends Migration
             $table->string('representante_legal');
             $table->string('identificacion_repte_legal');
             $table->string('tipo_de_identificacion_repte_legal');
-            $table->date('fecha_pago_seguridad_social');
-            $table->string('camara_de_comercio');
-            $table->date('fecha_de_expedición_ccio');
-            $table->string('certificación_bancaria');
-            $table->date('fecha_de_expedición_cban');  
-            $table->string('contacto_gestion_humana');        
+            $table->date('fecha_pago_seguridad_social');       
+            $table->string('contacto_gestion_humana');   
             $table->string('telefono_gest_hum');
             $table->string('email_gest_hum');
             $table->string('contacto_tesoreria');

@@ -15,12 +15,7 @@ class CreateIncapacidadesTable extends Migration
     {
         Schema::create('incapacidades', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
-            $table->string('caja_de_compensacion');
-            $table->string('tipo_vinculacion');
-            $table->string('condicion_actual_usuario');
-            $table->string('sede');
-            $table->string('resultado_valoracion');            
+            $table->timestamps();                       
             $table->string('identificacion_empleado');
             $table->string('origen');
             $table->string('clasificacion');
